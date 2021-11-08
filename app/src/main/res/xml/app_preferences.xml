@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:divider="?attr/dividerHorizontal">
+    <PreferenceCategory
+        android:title="General">
+        <Preference
+            android:key="@string/pref_key_counter_type"
+            android:summary="Compare income and expenses"
+            android:title="Set Homescreen Type" />
+        <Preference
+            android:key="@string/pref_key_counter_period"
+            android:summary="Compare income and expenses"
+            android:title="Set Homescreen Period" />
+        <Preference
+            android:key="@string/pref_key_limit"
+            android:summary="100Php"
+            android:title="Limit" />
+        <Preference
+            android:key="@string/pref_key_currency"
+            android:summary="Php"
+            android:title="Change Currency" />
+        <Preference
+            android:key="@string/pref_key_custom_categories"
+            android:title="Add Categories" />
+        <Preference
+            android:key="@string/pref_key_logout"
+            android:title="Logout" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

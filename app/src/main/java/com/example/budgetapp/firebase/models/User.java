@@ -1,0 +1,18 @@
+package com.example.budgetapp.firebase.models;
+
+import com.google.firebase.database.IgnoreExtraProperties;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@IgnoreExtraProperties
+public class User {
+    public Currency currency = new Currency("Php", true, true);
+    public UserSettings userSettings = new UserSettings();
+    public Wallet wallet = new Wallet();
+    public Map<String, WalletEntryCategory> customCategories = new HashMap<>();
+
+    public User() {
+
+    }
+}
