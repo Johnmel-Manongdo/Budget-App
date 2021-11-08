@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MaterialTheme">
-        <activity android:name=".ui.options.profile.ProfileActivity"></activity>
+
         <activity
             android:name=".ui.splash_screen.SplashActivity"
             android:theme="@style/SplashTheme">
